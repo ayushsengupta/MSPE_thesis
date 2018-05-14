@@ -1,4 +1,4 @@
-function [irdSOH, irdSOC, ird_pt5, ird_10, ird_30, legend_ird] = ir_dis_cycle_CEA(p)
+function [irdSOH, irdSOC, ird_pt5, ird_10, ird_30] = ir_dis_cycle_CEA(p)
 % This function returns the SOH, SOC, internal resistance discharge data for 0.5 seconds, 10 seconds and 30 seconds; 
 % and the legend matrix    
     dcharge_irtab = readtable(p,'Range','C135:L194','ReadVariableNames',false);  
@@ -28,10 +28,15 @@ function [irdSOH, irdSOC, ird_pt5, ird_10, ird_30, legend_ird] = ir_dis_cycle_CE
                 ird_pt5(a,b) = (ird_pt5(a+1,b)+ird_pt5(a-1,b))/2
                 ird_10(a,b) = (ird_10(a+1,b)+ird_10(a-1,b))/2
                 ird_30(a,b) = (ird_30(a+1,b)+ird_30(a-1,b))/2
+            elseif (a==x && irdSOC(a,b)==0 && ird_pt5(a,b)==0 && ird_10(a,b) == 0 && ird_30(a,b) == 0 )
+                irdSOC(a,b) = NaN
+                ird_pt5(a,b) = NaN
+                ird_10(a,b) = NaN
+                ird_30(a,b) = NaN 
             end
         end
     end
-
+%{
     legend_ird = cellstr(num2str(irdSOH', 'SOH = %f'))
     subleg1d = cellstr(num2str(irdSOH', 'at 0.5s and SOH = %f'))
     subleg2d = cellstr(num2str(irdSOH', 'at 10s and SOH = %f'))
@@ -56,4 +61,5 @@ function [irdSOH, irdSOC, ird_pt5, ird_10, ird_30, legend_ird] = ir_dis_cycle_CE
     %xlabel('State of charge (%)')
     %ylabel('Internal resistance (mOhm)')
     %title('Internal resistance (Discharging)- Time elapsed: 30 seconds')
+%}
 end
