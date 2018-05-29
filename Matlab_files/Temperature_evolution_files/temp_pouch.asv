@@ -1,0 +1,14 @@
+Pou_Cell19 = readtable('G:\Pikoo\Study\MSPE\MasterThesis\Spicy_GEN_0_cells\Spicy_GEN0_Prismatic_soft_casing\Ageing tests\Life-cycling\Raw Data\CURaw_Cycl_T05_Ch0.3C_Vito_Pouch_Cell19_01.xlsx','Range','D4:N188592','ReadVariableNames',true);
+[x,y]=size(Pou_Cell19)
+Time_pouch = Pou_Cell19{:,'Time_h_'};
+Volt_pouch = Pou_Cell19{:,'Voltage_V_'};
+Temp_pouch = Pou_Cell19{:,'Temperature_C_'};
+count=1
+for i=1:x
+    if Temp_pouch{i,1} ~= NaN
+        T1C_pouch{count,1} = Temp_pouch{i,1};
+        UV_pouch{count,1}  = Volt_pouch{i,1};
+        Timeh_pouch{count,1} = Temp_pouch{i,1};
+        count=count+1;
+    end
+end

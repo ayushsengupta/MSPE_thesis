@@ -3,12 +3,13 @@
 
 %% the main code
 yyaxis left
-plot(Prism_Cell20.Timeh,Prism_Cell20.T1C)
+plot(Cyl_Cell19.Timeh,Cyl_Cell19.T1C)
 yyaxis right
-plot(Prism_Cell20.Timeh,Prism_Cell20.UV)
+plot(Cyl_Cell19.Timeh,Cyl_Cell19.UV, '-.')
 xlabel("Time (hours)")
 yyaxis left
 ylabel("Temperature (degree Celsius)")
 yyaxis right
 ylabel("Voltage (V)")
-title("Prismatic Cell 20 (0.3C, 5 deg C): Temperature developed over cycling test")
+legend('Temperature','Voltage', 'Location','North')
+title("Cylindrical Cell 19 (0.3C, 5 deg C): Temperature developed over cycling test")
