@@ -92,6 +92,9 @@ legend_com = ["Cylindrical Cell @ 0.3C, 05 deg C"; "Cylindrical Cell @ 0.3C, 45 
 % 45 deg C, 2C--> Cyl (F17,18), Prism (F23,24)
 
 figure()
+xlabel('Equivalent full cycle (EFC)')
+ylabel('State of Health (%)')
+
 subplot(2,2,1)
 % The 5 deg C, 0.3 C curves : Cyl (F1,2), Prism (F5,6), Pouch (F9,10)
 % cylindrical part
@@ -117,8 +120,6 @@ Ecn_avg_pouch_5pt3(1,:) = (Ecn_pouch(1,:)+Ecn_pouch(2,:))/2
 plot(Ecn_avg_pouch_5pt3, SoH_avg_pouch_5pt3, 'k-.x')
             
 ylim([0 100])
-xlabel('Equivalent full cycle (EFC)')
-ylabel('State of Health (%)')
 legend('Cylindrical', 'Prismatic', 'Pouch', 'Location', 'SouthWest')
 title('Ageing at 5 degC and 0.3C')
 
@@ -144,8 +145,6 @@ plot(Ecn_avg_prism_5_2, SoH_avg_prism_5_2, 'g-s')
 plot(Ecn_pouch_5_2, SoH_pouch_5_2, 'k-.x')
             
 ylim([0 100])
-xlabel('Equivalent full cycle (EFC)')
-ylabel('State of Health (%)')
 legend('Cylindrical', 'Prismatic', 'Pouch', 'Location', 'SouthWest')
 title('Ageing at 5 degC and 2C')
 
@@ -162,7 +161,8 @@ hold on
 % Prismatic part
 % Here it was found that there were some errors in File F22, so only File
 % F21 is used
-[SoH_prism_25_2(1,:),Ecn_prism_25_2(1,:)] = age_cycle_prism(F21);
+[SoH_prism(1,:),Ecn_prism_25_2(1,:)] = age_cycle_prism(F21);
+
 plot(Ecn_prism_25_2, SoH_prism_25_2, 'g-s')
             
 % Pouch part
@@ -178,8 +178,6 @@ Ecn_avg_pouch_25_2(1,:) = (Ecn_pouch(1,:)+Ecn_pouch(2,:))/2
 plot(Ecn_avg_pouch_25_2, SoH_avg_pouch_25_2, 'k-.x')
             
 ylim([0 100])
-xlabel('Equivalent full cycle (EFC)')
-ylabel('State of Health (%)')
 legend('Cylindrical', 'Prismatic', 'Pouch', 'Location', 'SouthWest')
 title('Ageing at 25 degC and 2C')
 
@@ -201,8 +199,6 @@ Ecn_avg_prism_45_2 = (Ecn_prism(1,:)+Ecn_prism(2,:))/2
 plot(Ecn_avg_prism_45_2, SoH_avg_prism_45_2, 'g-s')
 
 ylim([0 100])
-xlabel('Equivalent full cycle (EFC)')
-ylabel('State of Health (%)')
 legend('Cylindrical', 'Prismatic','Location', 'SouthWest')
 title('Ageing at 45 degC and 2C')
 
@@ -241,11 +237,11 @@ for n=1:(j/2)
         ir_pt5_av(1,:) = (ir_pt5(1,:)+ ir_pt5(2,:))/2
         ir_10_av(1,:) = (ir_10(1,:)+ ir_10(2,:))/2
         ir_30_av(1,:) = (ir_30(1,:)+ ir_30(2,:))/2
-        plot(irSOC_av, ir_pt5_av,'g-*')
+        plot(irSOC_av, ir_pt5_av,'b-*')
         hold on
-        plot(irSOC_av, ir_10_av, 'g-<')
+        plot(irSOC_av, ir_10_av, 'b-<')
         hold on
-        plot(irSOC_av, ir_30_av, 'g-s')
+        plot(irSOC_av, ir_30_av, 'b-s')
         hold on
         subleg1_prism = strcat('Prismatic, ', cellstr(num2str(ir_SOH_av', 'at 0.5s and SOH = %f')))
         subleg2_prism = strcat('Prismatic, ', cellstr(num2str(ir_SOH_av', 'at 10s and SOH = %f')))
@@ -385,11 +381,11 @@ for n=1:(j/2)
         ird_pt5_av(1,:) = (ird_pt5(1,:)+ ird_pt5(2,:))/2
         ird_10_av(1,:) = (ird_10(1,:)+ ird_10(2,:))/2
         ird_30_av(1,:) = (ird_30(1,:)+ ird_30(2,:))/2
-        plot(irdSOC_av, ird_pt5_av,'g-*')
+        plot(irdSOC_av, ird_pt5_av,'b-*')
         hold on
-        plot(irdSOC_av, ird_10_av, 'g-<')
+        plot(irdSOC_av, ird_10_av, 'b-<')
         hold on
-        plot(irdSOC_av, ird_30_av, 'g-s')
+        plot(irdSOC_av, ird_30_av, 'b-s')
         hold on
         subleg1d_prism = strcat('Prismatic, ', cellstr(num2str(ird_SOH_av', 'at 0.5s and SOH = %f')))
         subleg2d_prism = strcat('Prismatic, ', cellstr(num2str(ird_SOH_av', 'at 10s and SOH = %f')))

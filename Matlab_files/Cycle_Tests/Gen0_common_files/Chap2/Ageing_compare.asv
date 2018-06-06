@@ -465,11 +465,11 @@ end
     hold on
     plot(irdSOC_av_prism_5(:,2), ird_pt5_av_prism_5, 'g-*')
     hold on
-    plot(irdSOC_av_prism_45(:,2), ird_pt5_av_prism_45, 'g-s')
+    plot(irdSOC_av_prism_45(:,2), ird_pt5_av_prism_45, 'g-s', 'y')
     hold on
-    plot(irdSOC_av_pouch_5(:,2), ird_pt5_av_pouch_5, 'k-o')
+    plot(irdSOC_av_pouch_5(:,2), ird_pt5_av_pouch_5, '-o', 'k')
     hold on
-    plot(irdSOC_av_pouch_45(:,2), ird_pt5_av_pouch_45, 'k-v')
+    plot(irdSOC_av_pouch_45(:,2), ird_pt5_av_pouch_45, '-v', 'k')
     xlim([0 100])
     ylim([0 1.8])
     legend(legreld, 'Location', 'NorthWest')
@@ -479,17 +479,17 @@ end
 
 % for the 10s instant
     figure()
-    plot(irdSOC_av_cyl_5(:,2), ird_10_av_cyl_5, 'r-+')
+    plot(irdSOC_av_cyl_5(:,2), ird_10_av_cyl_5, '-+', 'r')
     hold on
-    plot(irdSOC_av_cyl_45(:,2), ird_10_av_cyl_45, 'r-h')
+    plot(irdSOC_av_cyl_45(:,2), ird_10_av_cyl_45, '-h', 'r')
     hold on
-    plot(irdSOC_av_prism_5(:,2), ird_10_av_prism_5, 'g-*')
+    plot(irdSOC_av_prism_5(:,2), ird_10_av_prism_5, '-*', 'y')
     hold on
-    plot(irdSOC_av_prism_45(:,2), ird_10_av_prism_45, 'g-s')
+    plot(irdSOC_av_prism_45(:,2), ird_10_av_prism_45, '-s', 'y')
     hold on
-    plot(irdSOC_av_pouch_5(:,2), ird_10_av_pouch_5, 'k-o')
+    plot(irdSOC_av_pouch_5(:,2), ird_10_av_pouch_5, '-o', 'k')
     hold on
-    plot(irdSOC_av_pouch_45(:,2), ird_10_av_pouch_45, 'k-v')
+    plot(irdSOC_av_pouch_45(:,2), ird_10_av_pouch_45, '-v', 'k')
     xlim([0 100])
     ylim([0 1.8])
     legend(legreld, 'Location', 'NorthWest')
@@ -499,17 +499,17 @@ end
 
     % for the 30s instant
     figure()
-    plot(irdSOC_av_cyl_5(:,2), ird_30_av_cyl_5, 'r-+')
+    plot(irdSOC_av_cyl_5(:,2), ird_30_av_cyl_5, '-+', 'r')
     hold on
-    plot(irdSOC_av_cyl_45(:,2), ird_30_av_cyl_45, 'r-h')
+    plot(irdSOC_av_cyl_45(:,2), ird_30_av_cyl_45, '-h', 'r')
     hold on
-    plot(irdSOC_av_prism_5(:,2), ird_30_av_prism_5, 'g-*')
+    plot(irdSOC_av_prism_5(:,2), ird_30_av_prism_5, '-*', 'y')
     hold on
-    plot(irdSOC_av_prism_45(:,2), ird_30_av_prism_45, 'g-s')
+    plot(irdSOC_av_prism_45(:,2), ird_30_av_prism_45, '-s', 'y')
     hold on
-    plot(irdSOC_av_pouch_5(:,2), ird_30_av_pouch_5, 'k-o')
+    plot(irdSOC_av_pouch_5(:,2), ird_30_av_pouch_5, '-o', 'k')
     hold on
-    plot(irdSOC_av_pouch_45(:,2), ird_30_av_pouch_45, 'k-v')
+    plot(irdSOC_av_pouch_45(:,2), ird_30_av_pouch_45, '-v', 'k')
     xlim([0 100])
     ylim([0 1.8])
     legend(legreld, 'Location', 'NorthWest')
