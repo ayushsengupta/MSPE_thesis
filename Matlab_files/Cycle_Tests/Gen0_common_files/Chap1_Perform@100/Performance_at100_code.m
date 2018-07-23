@@ -89,7 +89,7 @@ legend_com = ["Cylindrical Cell @ 0.3C, 05 deg C"; "Cylindrical Cell @ 0.3C, 45 
 % 5 deg C, 0.3C --> Cyl (F1,2), Prism (F5,6), Pouch (F9,10)
 % 5 deg C, 2C --> Cyl (F13,14), Prism (F19,20), Pouch (F25)
 % 25 deg C, 2C--> Cyl (F15,16), Prism (F21,22), Pouch (F26,27)
-% 45 deg C, 2C--> Cyl (F17,18), Prism (F23,24)
+% 45 deg C, 0.3C--> Cyl (F3,4), Prism (F7,8), Pouch (F11,12) 
 
 figure()
 subplot(2,2,1)
@@ -186,25 +186,31 @@ title('Ageing at 25 degC and 2C')
 subplot(2,2,4)
 % The 45 deg C, 2C curves: Cyl (F17,18), Prism (F23,24)
 % cylindrical part
-[SoH_cyl(1,:),Ecn_cyl(1,:)] = age_cycle_cyl(F17);
-[SoH_cyl(2,:),Ecn_cyl(2,:)] = age_cycle_cyl(F18);
-SoH_avg_cyl_45_2(1,:) = (SoH_cyl(1,:)+SoH_cyl(2,:))/2
-Ecn_avg_cyl_45_2(1,:) = (Ecn_cyl(1,:)+Ecn_cyl(2,:))/2
-plot(Ecn_avg_cyl_45_2, SoH_avg_cyl_45_2, 'r-+')
+[SoH_cyl(1,:),Ecn_cyl(1,:)] = age_cycle_cyl(F3);
+[SoH_cyl(2,:),Ecn_cyl(2,:)] = age_cycle_cyl(F4);
+SoH_avg_cyl_45pt3(1,:) = (SoH_cyl(1,:)+SoH_cyl(2,:))/2
+Ecn_avg_cyl_45pt3(1,:) = (Ecn_cyl(1,:)+Ecn_cyl(2,:))/2
+plot(Ecn_avg_cyl_45pt3, SoH_avg_cyl_45pt3, 'r-+')
 hold on
 
 % Prismatic part
-[SoH_prism(1,:),Ecn_prism(1,:)] = age_cycle_prism(F23);
-[SoH_prism(2,:),Ecn_prism(2,:)] = age_cycle_prism(F24);
-SoH_avg_prism_45_2 = (SoH_prism(1,:)+SoH_prism(2,:))/2
-Ecn_avg_prism_45_2 = (Ecn_prism(1,:)+Ecn_prism(2,:))/2
-plot(Ecn_avg_prism_45_2, SoH_avg_prism_45_2, 'g-s')
+[SoH_prism(1,:),Ecn_prism(1,:)] = age_cycle_prism(F7);
+[SoH_prism(2,:),Ecn_prism(2,:)] = age_cycle_prism(F8);
+SoH_avg_prism_45pt3 = (SoH_prism(1,:)+SoH_prism(2,:))/2
+Ecn_avg_prism_45pt3 = (Ecn_prism(1,:)+Ecn_prism(2,:))/2
+plot(Ecn_avg_prism_45pt3, SoH_avg_prism_45pt3, 'g-s')
+
+[SoH_pouch(1,:), Ecn_pouch(1,:)] = age_cycle_pouch(F11);
+[SoH_pouch(2,:), Ecn_pouch(2,:)] = age_cycle_pouch(F12);
+SoH_avg_pouch_45pt3(1,:) = (SoH_pouch(1,:)+SoH_pouch(2,:))/2
+Ecn_avg_pouch_45pt3(1,:) = (Ecn_pouch(1,:)+Ecn_pouch(2,:))/2
+plot(Ecn_avg_pouch_45pt3, SoH_avg_pouch_45pt3, 'k-.x')
 
 ylim([0 100])
 xlabel('Equivalent full cycle (EFC)')
 ylabel('State of Health (%)')
-legend('Cylindrical', 'Prismatic','Location', 'SouthWest')
-title('Ageing at 45 degC and 2C')
+legend('Cylindrical', 'Prismatic','Pouch','Location', 'SouthWest')
+title('Ageing at 45 degC and 0.3C')
 
 %% Internal resistance (charging) for 100% SOH
 % Includes following two sections: Low Temp and High Temp
