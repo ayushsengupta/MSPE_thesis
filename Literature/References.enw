@@ -1,0 +1,836 @@
+%0 Conference Proceedings
+%D 2009
+%T Proceedings of the annual conference of the prognostics and health management society
+%! Proceedings of the annual conference 2009
+%~ BibTeX
+
+
+%0 Web Page
+%A Ahn, Soonho
+%A Lee, Hyang-Mok
+%A Lee, Seung-Jin
+%A Youngsun, Park
+%A Ku, Cha-Hun
+%A Kim, Je Young
+%A Lee, Jae-Hyun
+%A Kim, Seok Koo
+%A Cho, Jin Yeon
+%T The Impact of Cell Geometries and Battery Designs on Safety and Performance of Lithium Ion Polymer Batteries
+%I The Electrochemical Society
+%U https://www.electrochem.org/dl/ma/203/pdfs/0106.pdf
+%! Ahn, Lee et al. – The Impact of Cell Geometries
+%N June 22nd, 2018
+
+
+%0 Web Page
+%A Alarco, Jose
+%A Talbot, Peter
+%D 2015
+%T The history and development of batteries
+%I The Conversation
+%U https://phys.org/news/2015-04-history-batteries.html#jCp
+%! Alarco, Talbot 2015 – The history and development
+%N June 4, 2018
+
+
+%0 Journal Article
+%T The state of understanding of the lithium-ion-battery graphite solid electrolyte interphase (SEI) and its relationship to formation cycling
+%A An, Seong Jin
+%A Li, Jianlin
+%A Daniel, Claus
+%A Mohanty, Debasish
+%A Nagpure, Shrikant
+%A Wood, David L.
+%D 2016
+%J Carbon
+%B Carbon
+%@ 00086223
+%V 105
+%P 52–76
+%! An, Li et al. 2016 – The state of understanding
+%R 10.1016/j.carbon.2016.04.008
+%~ CrossRef
+
+
+%0 Journal Article
+%T High power li-Ion battery performance: a mechanistic analysis of aging
+%A Anseán González, David
+%D 2015
+%! Anseán González 2015 – High power li-Ion battery performance
+%~ BibTeX
+
+
+%0 Journal Article
+%T A review on lithium-ion battery ageing mechanisms and estimations for automotive applications
+%A Barré, Anthony
+%A Deguilhem, Benjamin
+%A Grolleau, Sébastien
+%A Gérard, Mathias
+%A Suard, Frédéric
+%A Riu, Delphine
+%D 2013
+%J Journal of Power Sources
+%B Journal of Power Sources
+%@ 03787753
+%V 241
+%P 680–689
+%! Barré, Deguilhem et al. 2013 – A review on lithium-ion battery
+%R 10.1016/j.jpowsour.2013.05.040
+%~ CrossRef
+
+
+%0 Journal Article
+%T The Development and Future of Lithium Ion Batteries
+%A Blomgren, George E.
+%D 2016
+%J Journal of The Electrochemical Society
+%B Journal of The Electrochemical Society
+%@ 0013-4651
+%N 1
+%V 164
+%P A5019-A5025
+%! Blomgren 2016 – The Development and Future
+%R 10.1149/2.0251701jes
+%~ CrossRef
+
+
+%0 Journal Article
+%T Pulse Polarization for Li-Ion Battery under Constant State of Charge: Part I. Pulse Discharge Experiments
+%A DuBeshter, Tyler
+%A Jorne, Jacob
+%D 2017
+%J Journal of The Electrochemical Society
+%B Journal of The Electrochemical Society
+%@ 0013-4651
+%N 11
+%V 164
+%P E3539-E3546
+%! DuBeshter, Jorne 2017 – Pulse Polarization for Li-Ion Battery
+%R 10.1149/2.0551711jes
+%~ CrossRef
+
+
+%0 Journal Article
+%T LiFePO 4 /C nanocomposites for lithium-ion batteries
+%A Eftekhari, Ali
+%D 2017
+%J Journal of Power Sources
+%B Journal of Power Sources
+%@ 03787753
+%V 343
+%P 395–411
+%! Eftekhari 2017 – LiFePO 4 /C nanocomposites
+%R 10.1016/j.jpowsour.2017.01.080
+%~ CrossRef
+
+
+%0 Conference Proceedings
+%E Eric Maiser
+%D 2014
+%T REVIEW ON ELECTROCHEMICAL STORAGE MATERIALS AND TECHNOLOGY: Proceedings of the 1st International Freiberg Conference on Electrochemical Storage Materials
+%S AIP Conference Proceedings
+%C Freiberg, Germany
+%I AIP Publishing LLC
+%! Eric Maiser (Ed.) 2014 – REVIEW ON ELECTROCHEMICAL STORAGE MATERIALS
+%~ CrossRef
+
+
+%0 Journal Article
+%T Review on recent progress of nanostructured anode materials for Li-ion batteries
+%A Goriparti, Subrahmanyam
+%A Miele, Ermanno
+%A Angelis, Francesco de
+%A Di Fabrizio, Enzo
+%A Proietti Zaccaria, Remo
+%A Capiglia, Claudio
+%D 2014
+%J Journal of Power Sources
+%B Journal of Power Sources
+%@ 03787753
+%V 257
+%P 421–443
+%! Goriparti, Miele et al. 2014 – Review on recent progress
+%> file:///C:/Users/AYUSHSENGUPTA/Documents/Citavi 5/Projects/Master_thesis/Citavi Attachments/Review_on_recent_progress_of_nanostructured_anode_materials_for_Libatt.pdf
+%R 10.1016/j.jpowsour.2013.11.103
+%K Anode materials
+%K Li-ion batteries
+%K Nano-structures
+%K Rechargeable batteries
+%~ CrossRef
+%. Review on recent progress of nanostructured anode materials for Li-ion batteries
+          1 Introduction
+          2 Insertion/de-insertion materials
+                    2.1 Carbon based materials
+                              2.1.1 Hard carbon
+                              2.1.2 Carbon nanotubes
+                              2.1.3 Graphene
+                    2.2 Titanium based oxides
+                              2.2.1 Spinel Li4Ti5O12 (LTO)
+                              2.2.2 Titanium dioxide (TiO2, titania)
+          3 Alloy/de-alloy materials
+                    3.1 Silicon (Si)
+                    3.2 Silicon monoxide (SiO)
+                    3.3 Germanium (Ge)
+                    3.4 Tin oxide (SnO2)
+          4 Conversion materials
+                    4.1 Iron oxide
+                    4.2 Cobalt oxides
+                    4.3 Metal phosphides (MPx)
+                    4.4 Metal sulphides (MSx) and nitrides (MNx)
+          5 Summary
+          References
+
+
+%0 Thesis
+%@ 978-91-7597-134-6
+%A Groot, Jens
+%T State-of-health estimation of Li-ion batteries
+%! Groot – State-of-health estimation of Li-ion batteries
+%> file:///C:/Users/AYUSHSENGUPTA/Documents/Citavi 5/Projects/Master_thesis/Citavi Attachments/Groot - State-of-health estimation of Li-ion batteries.pdf
+%~ The British Library
+
+
+%0 Journal Article
+%T A comparative study of commercial lithium ion battery cycle life in electrical vehicle: Aging mechanism identification
+%A Han, Xuebing
+%A Ouyang, Minggao
+%A Lu, Languang
+%A Li, Jianqiu
+%A Zheng, Yuejiu
+%A Li, Zhe
+%D 2014
+%J Journal of Power Sources
+%B Journal of Power Sources
+%@ 03787753
+%V 251
+%P 38–54
+%! Han, Ouyang et al. 2014 – A comparative study of commercial
+%R 10.1016/j.jpowsour.2013.11.029
+%~ CrossRef
+
+
+%0 Unpublished Work
+%A Horst Mettlach (Opel)
+%D November 2011
+%T Initial Cycling & Calendar Ageing Test Procedures and and checkup tests for High Energy Li-ion battery cells
+%I Project HELIOS -  High Energy Lithium-Ion Storage Solutions
+%U http://www.transport-research.info/sites/default/files/project/documents/20120404_144903_76248_HELIOS_DELIVERABLE_3_2.pdf
+%! Horst Mettlach November 2011 – Initial Cycling & Calendar Ageing
+%> file:///C:/Users/AYUSHSENGUPTA/Documents/Citavi 5/Projects/Master_thesis/Citavi Attachments/Horst Mettlach November 2011 - Initial Cycling & Calendar Ageing.pdf
+
+
+%0 Book
+%@ 978-1-85617-441-1
+%A Hutten, Irwin M.
+%D 2007
+%T Handbook of non-woven filter media
+%C Oxford
+%I Butterworth-Heinemann
+%! Hutten 2007 – Handbook of non-woven filter media
+%~ The British Library
+
+
+%0 Journal Article
+%T Electrochemical Impedance Spectra for Lithium-ion Battery Ageing Considering the Rate of Discharge Ability
+%A Jiang, Jiuchun
+%A Lin, Zhisong
+%A Ju, Qun
+%A Ma, Zeyu
+%A Zheng, Caihui
+%A Wang, Zhanguo
+%D 2017
+%J Energy Procedia
+%B Energy Procedia
+%@ 18766102
+%V 105
+%P 844–849
+%! Jiang, Lin et al. 2017 – Electrochemical Impedance Spectra for Lithium-ion
+%> file:///C:/Users/AYUSHSENGUPTA/Documents/Citavi 5/Projects/Master_thesis/Citavi Attachments/Jiang, Lin et al. 2017 - Electrochemical Impedance Spectra for Lithium-ion.pdf
+%R 10.1016/j.egypro.2017.03.399
+%~ CrossRef
+
+
+%0 Journal Article
+%T Separators for Li-ion and Li-metal battery including ionic liquid based electrolytes based on the TFSI- and FSI- anions
+%A Kirchhöfer, Marija
+%A Zamory, Jan von
+%A Paillard, Elie
+%A Passerini, Stefano
+%D 2014
+%J International journal of molecular sciences
+%B International journal of molecular sciences
+%N 8
+%V 15
+%P 14868–14890
+%! Kirchhöfer, Zamory et al. 2014 – Separators for Li-ion and Li-metal
+%R 10.3390/ijms150814868
+%2 25153637
+%X The characterization of separators for Li-ion or Li-metal batteries incorporating hydrophobic ionic liquid electrolytes is reported herein. Ionic liquids made of N-butyl-N-methylpyrrolidinium (PYR14+) or N-methoxyethyl-N-methylpyrrolidinium (PYR12O1+), paired with bis(trifluoromethanesulfonyl)imide (TFSI-) or bis(fluorosulfonyl)imide (FSI-) anions, were tested in combination with separators having different chemistries and morphologies in terms of wetting behavior, Gurley and McMullin number, as well as Li/(Separator+Electrolyte) interfacial properties. It is shown that non-functionalized microporous polyolefin separators are poorly wetted by FSI--based electrolytes (contrary to TFSI--based electrolytes), while the ceramic coated separator Separion® allows good wetting with all electrolytes. Furthermore, by comparing the lithium solid electrolyte interphase (SEI) resistance evolution at open circuit and during cycling, depending on separator morphologies and chemistries, it is possible to propose a scale for SEI forming properties in the order: PYR12O1FSI>PYR14FSI>PYR14TFSI>PYR12O1TFSI. Finally, the impact the separator morphology is evidenced by the SEI resistance evolution and by comparing Li electrodes cycled using separators with two different morphologies.
+%Z Journal Article
+Research Support, Non-U.S. Gov't
+%~ PubMed
+
+
+%0 Journal Article
+%T Differential voltage analysis as a tool for analyzing inhomogeneous aging: A case study for LiFePO 4 |Graphite cylindrical cells
+%A Lewerenz, Meinert
+%A Marongiu, Andrea
+%A Warnecke, Alexander
+%A Sauer, Dirk Uwe
+%D 2017
+%J Journal of Power Sources
+%B Journal of Power Sources
+%@ 03787753
+%V 368
+%P 57–67
+%! Lewerenz, Marongiu et al. 2017 – Differential voltage analysis
+%R 10.1016/j.jpowsour.2017.09.059
+%~ CrossRef
+
+
+%0 Journal Article
+%T CC-CV charge protocol based on spherical diffusion model
+%A Li, Lian-xing
+%A Tang, Xin-cun
+%A Qu, Yi
+%A Liu, Hong-tao
+%D 2011
+%J Journal of Central South University of Technology
+%B Journal of Central South University of Technology
+%@ 1005-9784
+%N 2
+%V 18
+%P 319–322
+%! Li, Tang et al. 2011 – CC-CV charge protocol based
+%R 10.1007/s11771−011−0698−2
+%~ CrossRef
+
+
+%0 Journal Article
+%T Understanding electrochemical potentials of cathode materials in rechargeable batteries
+%A Liu, Chaofeng
+%A Neale, Zachary G.
+%A Cao, Guozhong
+%D 2016
+%J Materials Today
+%B Materials Today
+%@ 13697021
+%N 2
+%V 19
+%P 109–123
+%U https://www.sciencedirect.com/science/article/pii/S1369702115003181
+%! Liu, Neale et al. 2016 – Understanding electrochemical potentials of cathode
+%R 10.1016/j.mattod.2015.10.009
+%~ CrossRef
+
+
+%0 Journal Article
+%T Evaluation of different calibration equations for NTC thermistor applied to high-precision temperature measurement
+%A Liu, Guang
+%A Guo, Liang
+%A Liu, Chunlong
+%A Wu, Qingwen
+%D 2018
+%J Measurement
+%B Measurement
+%@ 02632241
+%V 120
+%P 21–27
+%! Liu, Guo et al. 2018 – Evaluation of different calibration equations
+%R 10.1016/j.measurement.2018.02.007
+%~ CrossRef
+
+
+%0 Conference Proceedings
+%E M. Nisvo Ramadan
+%E Bhisma A. Pramana
+%E Adha Cahyadi
+%E Oyas Wahyunggoro
+%D 2016
+%T State of health estimation in lithium polymer battery
+%S AIP Conference Proceedings
+%C New York, NY USA
+%U https://aip.scitation.org/doi/abs/10.1063/1.4958523
+%! M. Nisvo Ramadan, Bhisma A. Pramana et al. (Ed.) 2016 – State of health estimation
+%~ CrossRef
+
+
+%0 Book Section
+%A Maiser, Eric
+%E Eric Maiser
+%T Battery packaging - Technology review
+%B REVIEW ON ELECTROCHEMICAL STORAGE MATERIALS AND TECHNOLOGY: Proceedings of the 1st International Freiberg Conference on Electrochemical Storage Materials
+%D 2014
+%I AIP Publishing LLC
+%S AIP Conference Proceedings
+%P 204–218
+%! Maiser 2014 – Battery packaging
+%R 10.1063/1.4878489
+%~ CrossRef
+
+
+%0 Journal Article
+%T Comparison of commercial battery cells in relation to material properties
+%A Mulder, Grietus
+%A Omar, Noshin
+%A Pauwels, Stijn
+%A Meeus, Marcel
+%A Leemans, Filip
+%A Verbrugge, Bavo
+%A Nijs, Wouter de
+%A van den Bossche, Peter
+%A Six, Daan
+%A van Mierlo, Joeri
+%D 2013
+%J Electrochimica Acta
+%B Electrochimica Acta
+%@ 00134686
+%V 87
+%P 473–488
+%! Mulder, Omar et al. 2013 – Comparison of commercial battery cells
+%R 10.1016/j.electacta.2012.09.042
+%~ CrossRef
+
+
+%0 Journal Article
+%T Li-ion battery materials: Present and future
+%A Nitta, Naoki
+%A Wu, Feixiang
+%A Lee, Jung Tae
+%A Yushin, Gleb
+%D 2015
+%J Materials Today
+%B Materials Today
+%@ 13697021
+%N 5
+%V 18
+%P 252–264
+%! Nitta, Wu et al. 2015 – Li-ion battery materials
+%> file:///C:/Users/AYUSHSENGUPTA/Documents/Citavi 5/Projects/Master_thesis/Citavi Attachments/Liion_battery_materials_present_and_future.pdf
+%R 10.1016/j.mattod.2014.10.040
+%~ CrossRef
+%. Li-ion battery materials: present and future
+          Introduction
+          Cathodes
+                    Intercalation cathode materials
+                              Transition metal oxide
+                              Polyanion compounds
+                    Conversion cathode materials
+                              Fluorine and chlorine compounds
+                              Sulfur and lithium sulfide
+                              Selenium and tellurium
+                              Iodine
+          Anode
+                    Graphitic and hard carbons
+                    Lithium titanium oxide (Li4Ti5O12/LTO)
+                    Conversion materials – alloying materials (Type B)
+                    Conversion materials – other (Type A)
+          Conclusion
+          Acknowledgements
+          References
+
+
+%0 Journal Article
+%T Internal and External Temperature Monitoring of a Li-Ion Battery with Fiber Bragg Grating Sensors
+%A Novais, Susana
+%A Nascimento, Micael
+%A Grande, Lorenzo
+%A Domingues, Maria Fátima
+%A Antunes, Paulo
+%A Alberto, Nélia
+%A Leitão, Cátia
+%A Oliveira, Ricardo
+%A Koch, Stephan
+%A Kim, Guk Tae
+%A Passerini, Stefano
+%A Pinto, João
+%D 2016
+%J Sensors (Basel, Switzerland)
+%B Sensors (Basel, Switzerland)
+%N 9
+%V 16
+%! Novais, Nascimento et al. 2016 – Internal and External Temperature Monitoring
+%R 10.3390/s16091394
+%2 27589749
+%X The integration of fiber Bragg grating (FBG) sensors in lithium-ion cells for in-situ and in-operando temperature monitoring is presented herein. The measuring of internal and external temperature variations was performed through four FBG sensors during galvanostatic cycling at C-rates ranging from 1C to 8C. The FBG sensors were placed both outside and inside the cell, located in the center of the electrochemically active area and at the tab-electrode connection. The internal sensors recorded temperature variations of 4.0 ± 0.1 °C at 5C and 4.7 ± 0.1 °C at 8C at the center of the active area, and 3.9 ± 0.1 °C at 5C and 4.0 ± 0.1 °C at 8C at the tab-electrode connection, respectively. This study is intended to contribute to detection of a temperature gradient in real time inside a cell, which can determine possible damage in the battery performance when it operates under normal and abnormal operating conditions, as well as to demonstrate the technical feasibility of the integration of in-operando microsensors inside Li-ion cells.
+%Z Journal Article
+The authors declare no conflict of interest.
+%~ PubMed
+
+
+%0 Journal Article
+%T A review of conduction phenomena in Li-ion batteries
+%A Park, Myounggu
+%A Zhang, Xiangchun
+%A Chung, Myoungdo
+%A Less, Gregory B.
+%A Sastry, Ann Marie
+%D 2010
+%J Journal of Power Sources
+%B Journal of Power Sources
+%@ 03787753
+%N 24
+%V 195
+%P 7904–7929
+%! Park, Zhang et al. 2010 – A review of conduction phenomena
+%R 10.1016/j.jpowsour.2010.06.060
+%~ CrossRef
+
+
+%0 Journal Article
+%T Theory of SEI Formation in Rechargeable Batteries: Capacity Fade, Accelerated Aging and Lifetime Prediction
+%A Pinson, M. B.
+%A Bazant, M. Z.
+%D 2012
+%J Journal of the Electrochemical Society
+%B Journal of the Electrochemical Society
+%@ 0013-4651
+%N 2
+%V 160
+%P A243-A250
+%U https://arxiv.org/ftp/arxiv/papers/1210/1210.3672.pdf
+%! Pinson, Bazant 2012 – Theory of SEI Formation
+%R 10.1149/2.044302jes
+%~ CrossRef
+
+
+%0 Book Section
+%A Ramadan, M. Nisvo
+%A Pramana, Bhisma A.
+%A Cahyadi, Adha
+%A Wahyunggoro, Oyas
+%E M. Nisvo Ramadan
+%E Bhisma A. Pramana
+%E Adha Cahyadi
+%E Oyas Wahyunggoro
+%T State of health estimation in lithium polymer battery
+%B State of health estimation in lithium polymer battery
+%D 2016
+%S AIP Conference Proceedings
+%P 090005
+%! Ramadan, Pramana et al. 2016 – State of health estimation
+%R 10.1063/1.4958523
+%~ CrossRef
+
+
+%0 Web Page
+%A Rusling Research Group
+%D 2015
+%T Basics of Electrochemical Impedance Spectroscopy
+%U web2.uconn.edu/rusling/basics-of-electrochemical-impedance-spectroscopy.pptx
+%! Rusling Research Group 2015 – Basics of Electrochemical Impedance Spectroscopy
+%N 16-March-2018
+%8 26-August-2015
+%> file:///C:/Users/AYUSHSENGUPTA/Documents/Citavi 5/Projects/Master_thesis/Citavi Attachments/web2.uconn.edu/rusling/basics-of-electrochemical-impedance-spectroscopy.pptx
+%> file:///C:/Users/AYUSHSENGUPTA/Documents/Citavi 5/Projects/Master_thesis/Citavi Attachments/Rusling Research Group 2015 - Basics of Electrochemical Impedance Spectroscopy.pptx
+
+
+%0 Book Section
+%A Saha, Bhaskar
+%A Goebel, Kai
+%T Modeling Li-ion battery capacity depletion in a particle filtering framework
+%B Proceedings of the annual conference of the prognostics and health management society
+%D 2009
+%P 2909–2924
+%U https://pdfs.semanticscholar.org/6da6/f559425e9b9f719be1089b3cf254dcc1f8d0.pdf
+%! Saha, Goebel 2009 – Modeling Li-ion battery capacity depletion
+%~ BibTeX
+
+
+%0 Journal Article
+%T Cycle ageing analysis of a LiFePO 4 /graphite cell with dynamic model validations: Towards realistic lifetime predictions
+%A Sarasketa-Zabala, E.
+%A Gandiaga, I.
+%A Martinez-Laserna, E.
+%A Rodriguez-Martinez, L. M.
+%A Villarreal, I.
+%D 2015
+%J Journal of Power Sources
+%B Journal of Power Sources
+%@ 03787753
+%V 275
+%P 573–587
+%! Sarasketa-Zabala, Gandiaga et al. 2015 – Cycle ageing analysis
+%R 10.1016/j.jpowsour.2014.10.153
+%~ CrossRef
+
+
+%0 Journal Article
+%T Comparatively Assessing different Shapes of Lithium-ion Battery Cells
+%A Schröder, Robert
+%A Aydemir, Muhammed
+%A Seliger, Günther
+%D 2017
+%J Procedia Manufacturing
+%B Procedia Manufacturing
+%@ 23519789
+%V 8
+%P 104–111
+%! Schröder, Aydemir et al. 2017 – Comparatively Assessing different Shapes
+%R 10.1016/j.promfg.2017.02.013
+%~ CrossRef
+
+
+%0 Journal Article
+%T Comparison of the capacity fade of Sony US 18650 cells charged with different protocols
+%A Sikha, G.
+%A Ramadass, P.
+%A Haran, B. S.
+%A White, R. E.
+%A Popov, Branko N.
+%D 2003
+%J Journal of Power Sources
+%B Journal of Power Sources
+%@ 03787753
+%N 1
+%V 122
+%P 67–76
+%! Sikha, Ramadass et al. 2003 – Comparison of the capacity fade
+%R 10.1016/S0378-7753(03)00027-2
+%~ CrossRef
+
+
+%0 Edited Book
+%@ 978-953-307-287-6
+%A Soylu, Seref
+%D 2011
+%T Electric Vehicles â€“ The Benefits and Barriers
+%I InTech
+%R 10.5772/717
+%! Soylu (Ed.) 2011 – Electric Vehicles â€ The Benefits
+%~ CrossRef
+
+
+%0 Web Page
+%A SPICY Innovative Battery
+%D 2015
+%T Silicon and polyanionic chemistries and architectures of Li-ion cell for high energy battery
+%U http://www.spicy-project.eu/
+%! SPICY Innovative Battery 2015 – Silicon and polyanionic chemistries
+%N 15th March 2018
+
+
+%0 Journal Article
+%T Changes of Degradation Mechanisms of LiFePO 4 /Graphite Batteries Cycled at Different Ambient Temperatures
+%A Sun, Shun
+%A Guan, Ting
+%A Shen, Bin
+%A Leng, Kunyue
+%A Gao, Yunzhi
+%A Cheng, Xinqun
+%A Yin, Geping
+%D 2017
+%J Electrochimica Acta
+%B Electrochimica Acta
+%@ 00134686
+%V 237
+%P 248–258
+%! Sun, Guan et al. 2017 – Changes of Degradation Mechanisms
+%R 10.1016/j.electacta.2017.03.158
+%~ CrossRef
+
+
+%0 Journal Article
+%T Lithium-Ion Battery Cell Cycling and Usage Analysis in a Heavy-Duty Truck Field Study
+%A Svens, Pontus
+%A Behm, Mårten
+%A Lindbergh, Göran
+%D 2015
+%J Energies
+%B Energies
+%@ 1996-1073
+%N 5
+%V 8
+%P 4513–4528
+%! Svens, Behm et al. 2015 – Lithium-Ion Battery Cell Cycling
+%> file:///C:/Users/AYUSHSENGUPTA/Documents/Citavi 5/Projects/Master_thesis/Citavi Attachments/Svens, Behm et al. 2015 - Lithium-Ion Battery Cell Cycling.pdf
+%R 10.3390/en8054513
+%~ CrossRef
+
+
+%0 Web Page
+%A TUM-Institute for Electrical Energy Storage Technology, SPICY Homepage
+%D 2018
+%T TUM-EES SPICY
+%U https://www.ees.ei.tum.de/en/research/spicy/
+%! TUM-Institute for Electrical Energy Storage Technology, SPICY Homepage 2018 – TUM-EES SPICY
+
+
+%0 Journal Article
+%T Improvement of the electrochemical performance of carbon-coated LiFePO 4 modified with reduced graphene oxide
+%A Wang, Bo
+%A Wang, Dianlong
+%A Wang, Qiuming
+%A Liu, Tiefeng
+%A Guo, Chenfeng
+%A Zhao, Xiusong
+%D 2013
+%J J. Mater. Chem. A
+%B J. Mater. Chem. A
+%@ 2050-7488
+%N 1
+%V 1
+%P 135–144
+%! Wang, Wang et al. 2013 – Improvement of the electrochemical performance
+%> file:///C:/Users/AYUSHSENGUPTA/Documents/Citavi 5/Projects/Master_thesis/Citavi Attachments/Improvement_of_the_electrochemical_performance_of_LFP_with_graphene_oxide.pdf
+%R 10.1039/C2TA00106C
+%~ CrossRef
+%. Improvement of the electrochemical performance of carbon-coated LiFePO4 modified with reduced graphene oxide
+          Improvement of the electrochemical performance of carbon-coated LiFePO4 modified with reduced graphene oxide
+          Improvement of the electrochemical performance of carbon-coated LiFePO4 modified with reduced graphene oxide
+                    Improvement of the electrochemical performance of carbon-coated LiFePO4 modified with reduced graphene oxide
+                    Improvement of the electrochemical performance of carbon-coated LiFePO4 modified with reduced graphene oxide
+                    Improvement of the electrochemical performance of carbon-coated LiFePO4 modified with reduced graphene oxide
+                    Improvement of the electrochemical performance of carbon-coated LiFePO4 modified with reduced graphene oxide
+          Improvement of the electrochemical performance of carbon-coated LiFePO4 modified with reduced graphene oxide
+                    Improvement of the electrochemical performance of carbon-coated LiFePO4 modified with reduced graphene oxide
+                    Improvement of the electrochemical performance of carbon-coated LiFePO4 modified with reduced graphene oxide
+          Improvement of the electrochemical performance of carbon-coated LiFePO4 modified with reduced graphene oxide
+          Improvement of the electrochemical performance of carbon-coated LiFePO4 modified with reduced graphene oxide
+
+
+%0 Journal Article
+%T Modeling Two-Phase Behavior in PEFCs
+%A Weber, Adam Z.
+%A Darling, Robert M.
+%A Newman, John
+%D 2004
+%J Journal of The Electrochemical Society
+%B Journal of The Electrochemical Society
+%@ 0013-4651
+%N 10
+%V 151
+%P A1715
+%! Weber, Darling et al. 2004 – Modeling Two-Phase Behavior in PEFCs
+%R 10.1149/1.1792891
+%~ CrossRef
+
+
+%0 Book Section
+%@ 978-953-307-287-6
+%A Wu, Borong
+%A Ren, Yonghuan
+%A Li, Ning
+%E Soylu, Seref
+%T LiFePO4 Cathode Material
+%B Electric Vehicles â€“ The Benefits and Barriers
+%D 2011
+%I InTech
+%! Wu, Ren et al. 2011 – LiFePO4 Cathode Material
+%R 10.5772/18995
+%~ CrossRef
+
+
+%0 Journal Article
+%T Impact of Temperature and Discharge Rate on the Aging of a LiCoO 2 /LiNi 0.8 Co 0.15 Al 0.05 O 2 Lithium-Ion Pouch Cell
+%A Wu, Yao
+%A Keil, Peter
+%A Schuster, Simon F.
+%A Jossen, Andreas
+%D 2017
+%J Journal of The Electrochemical Society
+%B Journal of The Electrochemical Society
+%@ 0013-4651
+%N 7
+%V 164
+%P A1438-A1445
+%! Wu, Keil et al. 2017 – Impact of Temperature and Discharge
+%R 10.1149/2.0401707jes
+%~ CrossRef
+
+
+%0 Journal Article
+%T On the Study of Electrolyte Solutions for Li-Ion Batteries That Can Work Over a Wide Temperature Range
+%A Yaakov, David
+%A Gofer, Yossi
+%A Aurbach, Doron
+%A Halalay, Ion C.
+%D 2010
+%J Journal of The Electrochemical Society
+%B Journal of The Electrochemical Society
+%@ 0013-4651
+%N 12
+%V 157
+%P A1383
+%! Yaakov, Gofer et al. 2010 – On the Study of Electrolyte
+%R 10.1149/1.3507259
+%~ CrossRef
+
+
+%0 Journal Article
+%T Carbon-based electrocatalysts for advanced energy conversion and storage
+%A Zhang, Jintao
+%A Xia, Zhenhai
+%A Dai, Liming
+%D 2015
+%J Science advances
+%B Science advances
+%@ 2375-2548
+%N 7
+%V 1
+%P e1500564
+%! Zhang, Xia et al. 2015 – Carbon-based electrocatalysts for advanced energy
+%R 10.1126/sciadv.1500564
+%2 26601241
+%X Oxygen reduction reaction (ORR) and oxygen evolution reaction (OER) play curial roles in electrochemical energy conversion and storage, including fuel cells and metal-air batteries. Having rich multidimensional nanoarchitectures [for example, zero-dimensional (0D) fullerenes, 1D carbon nanotubes, 2D graphene, and 3D graphite] with tunable electronic and surface characteristics, various carbon nanomaterials have been demonstrated to act as efficient metal-free electrocatalysts for ORR and OER in fuel cells and batteries. We present a critical review on the recent advances in carbon-based metal-free catalysts for fuel cells and metal-air batteries, and discuss the perspectives and challenges in this rapidly developing field of practical significance.
+%Z Journal Article
+Review
+%~ PubMed
+
+
+%0 Journal Article
+%T Cycle life testing of lithium batteries: The effect of load-leveling
+%A Zhao, Jingyuan
+%D 2018
+%J International Journal of Electrochemical Science
+%B International Journal of Electrochemical Science
+%@ 14523981
+%P 1773–1786
+%! Zhao 2018 – Cycle life testing of lithium
+%R 10.20964/2018.02.37
+%~ CrossRef
+
+
+%0 Book
+%@ 978-1-5090-1919-9
+%A Zhao, Rui
+%A Zhang, Sijie
+%A Gu, Junjie
+%A Liu, Jie
+%D 2016
+%T 2016 IEEE Electrical Power and Energy Conference (EPEC): Safety Study of Three Types of Lithium Ion Batteries
+%C [Piscataway, NJ]; [Piscataway, NJ]
+%I IEEE
+%P 1 Online-Ressource
+%! Zhao, Zhang et al. 2016 – 2016 IEEE Electrical Power
+%~ WorldCat
+
+
+%0 Journal Article
+%T Graphene modified LiFePO4 cathode materials for high power lithium ion batteries
+%A Zhou, Xufeng
+%A Wang, Feng
+%A Zhu, Yimei
+%A Liu, Zhaoping
+%D 2011
+%J Journal of Materials Chemistry
+%B Journal of Materials Chemistry
+%@ 0959-9428
+%N 10
+%V 21
+%P 3353
+%! Zhou, Wang et al. 2011 – Graphene modified LiFePO4 cathode materials
+%> file:///C:/Users/AYUSHSENGUPTA/Documents/Citavi 5/Projects/Master_thesis/Citavi Attachments/Graphene_modified_LiFePO4_cathode_materials_for_high_power_lithium_ion.pdf
+%R 10.1039/c0jm03287e
+%~ CrossRef
+%. Graphene modified LiFePO4 cathode materials for high power lithium ion batteries
+          Graphene modified LiFePO4 cathode materials for high power lithium ion batteries
+          Graphene modified LiFePO4 cathode materials for high power lithium ion batteries
+                    Graphene modified LiFePO4 cathode materials for high power lithium ion batteries
+                    Graphene modified LiFePO4 cathode materials for high power lithium ion batteries
+                    Graphene modified LiFePO4 cathode materials for high power lithium ion batteries
+          Graphene modified LiFePO4 cathode materials for high power lithium ion batteries
+          Graphene modified LiFePO4 cathode materials for high power lithium ion batteries
+          Graphene modified LiFePO4 cathode materials for high power lithium ion batteries
+
+
