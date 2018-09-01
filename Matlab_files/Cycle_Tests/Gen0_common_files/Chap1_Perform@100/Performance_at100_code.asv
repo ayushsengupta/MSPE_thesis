@@ -416,13 +416,13 @@ for n=1:(j/2)
         hold on
         plot(irdSOC_av, ird_30_av, 'k-+','LineWidth', 1)
         hold on
-        subleg1d_pouch = strcat('Pouch at 0.5s')
-        subleg2d_pouch = strcat('Pouch at 10s')
-        subleg3d_pouch = strcat('Pouch at 30s')
+        subleg1d_pouch = strcat('Pouch, ', cellstr(num2str(ird_SOH_av', 'at 0.5s and SOH = %f')))
+        subleg2d_pouch = strcat('Pouch, ', cellstr(num2str(ird_SOH_av', 'at 10s and SOH = %f')))
+        subleg3d_pouch = strcat('Pouch, ', cellstr(num2str(ird_SOH_av', 'at 30s and SOH = %f')))
     end
 end
 hold off
-legend_ird_100 = strvcat(subleg1d_cyl, subleg2d_cyl, subleg3d_cyl, subleg1d_prism, subleg2d_prism, subleg3d_prism, subleg1d_pouch, subleg2d_pouch, subleg3d_pouch)
+legend_ird_100 = vertcat(subleg1d_cyl, subleg2d_cyl, subleg3d_cyl, subleg1d_prism, subleg2d_prism, subleg3d_prism, subleg1d_pouch, subleg2d_pouch, subleg3d_pouch)
 xlim([0 100])
 ylabel('Internal resistance (mOhm)')
 xlabel('State of Charge (%)')

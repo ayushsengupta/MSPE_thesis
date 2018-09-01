@@ -494,19 +494,20 @@ end
     title('10th second')
 
     % for the 30s instant
-    subplot(1,3,3)
-    plot(irdSOC_av_cyl_5(:,2), ird_30_av_cyl_5, 'r-.+', 'LineWidth', 1.5)
+    figure()
+    plot(irdSOC_av_cyl_5(:,2), ird_30_av_cyl_5, 'r-+')
     hold on
-    plot(irdSOC_av_cyl_45(:,2), ird_30_av_cyl_45, 'r-o', 'LineWidth', 1.5)
+    plot(irdSOC_av_cyl_45(:,2), ird_30_av_cyl_45, 'r-h')
     hold on
-    plot(irdSOC_av_prism_5(:,2), ird_30_av_prism_5, 'g-.+', 'LineWidth', 1.5)
+    plot(irdSOC_av_prism_5(:,2), ird_30_av_prism_5, 'g-*')
     hold on
-    plot(irdSOC_av_prism_45(:,2), ird_30_av_prism_45, 'g-o', 'LineWidth', 1.5)
+    plot(irdSOC_av_prism_45(:,2), ird_30_av_prism_45, 'g-s')
     hold on
-    plot(irdSOC_av_pouch_5(:,2), ird_30_av_pouch_5, 'k-.+', 'LineWidth', 1.5)
+    plot(irdSOC_av_pouch_5(:,2), ird_30_av_pouch_5, 'k-o')
     hold on
-    plot(irdSOC_av_pouch_45(:,2), ird_30_av_pouch_45, 'k-o', 'LineWidth', 1.5)
+    plot(irdSOC_av_pouch_45(:,2), ird_30_av_pouch_45, 'k-v')
     xlim([0 100])
     ylim([0 1.8])
     xlabel('State of Charge (%)')
-    title('30th second')
+    ylabel('Internal resistance increment with respect to 100% SOH (BOL)')
+    title('Ageing effect at the 30s instant of a 30s DISCHARGING pulse')
