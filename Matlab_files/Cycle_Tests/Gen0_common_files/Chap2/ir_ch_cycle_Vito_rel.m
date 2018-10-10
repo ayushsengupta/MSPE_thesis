@@ -1,4 +1,4 @@
-function [ir_SOH, irSOC, ir_pt5_rel, ir_10_rel, ir_30_rel] = ir_ch_cycle_Vito_rel(p)
+function [ir_SOH, irSOC, ohm_rel, ctk_rel, dif_rel] = ir_ch_cycle_Vito_rel(p)
 %% For internal resistance - charging
 % correspoinding data above.
     Charge_irtab = readtable(p,'Range','C81:Z140','ReadVariableNames',false);  
@@ -36,9 +36,12 @@ function [ir_SOH, irSOC, ir_pt5_rel, ir_10_rel, ir_30_rel] = ir_ch_cycle_Vito_re
             end
         end
     end
-    ir_pt5_rel(:,:)= ir_pt5(:,2)./ir_pt5(:,1)
-    ir_10_rel(:,:) = ir_10(:,2)./ir_10(:,1)
-    ir_30_rel(:,:) = ir_30(:,2)./ir_30(:,1)
+    ohm = ir_pt5(:,:)
+    ctk = ir_10(:,:) - ir_pt5(:,:)
+    dif = ir_30(:,:) - ir_10(:,:)
+    ohm_rel(:,:) = ohm(:,2)./ohm(:,1)
+    ctk_rel(:,:) = ctk(:,2)./ctk(:,1)
+    dif_rel(:,:) = dif(:,2)./dif(:,1)
     %{
     subleg1 = cellstr(num2str(ir_SOH', 'at 0.5s and SOH = %f'))
     subleg2 = cellstr(num2str(ir_SOH', 'at 10s and SOH = %f'))

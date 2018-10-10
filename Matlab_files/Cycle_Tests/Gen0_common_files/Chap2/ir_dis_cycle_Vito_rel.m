@@ -1,4 +1,4 @@
-function [irdSOH, irdSOC, ird_pt5_rel, ird_10_rel, ird_30_rel] = ir_dis_cycle_Vito_rel(p)
+function [irdSOH, irdSOC, ohmd_rel, ctkd_rel, difd_rel] = ir_dis_cycle_Vito_rel(p)
 % This function returns the SOH, SOC, internal resistance discharge data for 0.5 seconds, 10 seconds and 30 seconds; 
 % and the legend matrix    
     dcharge_irtab = readtable(p,'Range','C141:L200','ReadVariableNames',false);  
@@ -36,9 +36,12 @@ function [irdSOH, irdSOC, ird_pt5_rel, ird_10_rel, ird_30_rel] = ir_dis_cycle_Vi
             end
         end
     end
-    ird_pt5_rel(:,:)= ird_pt5(:,2)./ird_pt5(:,1)
-    ird_10_rel(:,:) = ird_10(:,2)./ird_10(:,1)
-    ird_30_rel(:,:) = ird_30(:,2)./ird_30(:,1)
+    ohmd = ird_pt5(:,:)
+    ctkd = ird_10(:,:) - ird_pt5(:,:)
+    difd = ird_30(:,:) - ird_10(:,:)
+    ohmd_rel(:,:) = ohmd(:,2)./ohmd(:,1)
+    ctkd_rel(:,:) = ctkd(:,2)./ctkd(:,1)
+    difd_rel(:,:) = difd(:,2)./difd(:,1)
 %{
     legend_ird = cellstr(num2str(irdSOH', 'SOH = %f'))
     subleg1d = cellstr(num2str(irdSOH', 'at 0.5s and SOH = %f'))

@@ -241,75 +241,75 @@ end
 for n=1:(j/2)
     k=n
     if(n==1)
-        [ir_SOH1(:,:), irSOC1(:,:), ir_pt51_rel(:,:), ir_101_rel(:,:), ir_301_rel(:,:)] = ir_ch_cycle_CID_rel(Filepath(2*k-1,:));
+        [ir_SOH1(:,:), irSOC1(:,:), ohm_rel51(:,:), ctk_rel51(:,:), dif_rel51(:,:)] = ir_ch_cycle_CID_rel(Filepath(2*k-1,:));
         k=k+1
-        [ir_SOH2(:,:), irSOC2(:,:), ir_pt52_rel(:,1), ir_102_rel(:,1), ir_302_rel(:,1)] = ir_ch_cycle_CID_rel(Filepath(2*k-2,:));
+        [ir_SOH2(:,:), irSOC2(:,:), ohm_rel52(:,:), ctk_rel52(:,:), dif_rel52(:,:)] = ir_ch_cycle_CID_rel(Filepath(2*k-2,:));
         ir_SOH_av_cyl_5(:,:) = (ir_SOH1()+ ir_SOH2())/2
         irSOC_av_cyl_5(:,:) = (irSOC1()+ irSOC2())/2
-        ir_pt5_av_cyl_5(:,:) = (ir_pt51_rel()+ ir_pt52_rel())/2
-        ir_10_av_cyl_5(:,:) = (ir_101_rel()+ ir_102_rel())/2
-        ir_30_av_cyl_5(:,:) = (ir_301_rel()+ ir_302_rel())/2
+        ohm_cyl_5(:,:) = (ohm_rel51()+ ohm_rel52())/2
+        ctk_cyl_5(:,:) = (ctk_rel51()+ ctk_rel52())/2
+        dif_cyl_5(:,:) = (dif_rel51()+ dif_rel52())/2
         leg_rel1 = strcat(legend_com(n),cellstr(num2str(ir_SOH_av_cyl_5(1,2)', ', at SOH = %f')))
                 
     end
     if (n==2)
         
-        [ir_SOH1(:,:), irSOC1(:,:), ir_pt51_rel(:,:), ir_101_rel(:,:), ir_301_rel(:,:)] = ir_ch_cycle_CEA_rel(Filepath(2*k-1,:));
+        [ir_SOH1(:,:), irSOC1(:,:), ohm_rel51(:,:), ctk_rel51(:,:), dif_rel51(:,:)] = ir_ch_cycle_CEA_rel(Filepath(2*k-1,:));
         k=k+1
-        [ir_SOH2(:,:), irSOC2(:,:), ir_pt52_rel(:,:), ir_102_rel(:,:), ir_302_rel(:,:)] = ir_ch_cycle_CEA_rel(Filepath(2*k-2,:));
+        [ir_SOH2(:,:), irSOC2(:,:), ohm_rel52(:,:), ctk_rel52(:,:), dif_rel52(:,:)] = ir_ch_cycle_CEA_rel(Filepath(2*k-2,:));
         ir_SOH_av_cyl_45(:,:) = (ir_SOH1()+ ir_SOH2())/2
         irSOC_av_cyl_45(:,:) = (irSOC1()+ irSOC2())/2
-        ir_pt5_av_cyl_45(:,:) = (ir_pt51_rel()+ ir_pt52_rel())/2
-        ir_10_av_cyl_45(:,:) = (ir_101_rel()+ ir_102_rel())/2
-        ir_30_av_cyl_45(:,:) = (ir_301_rel()+ ir_302_rel())/2
+        ohm_cyl_45(:,:) = (ohm_rel51()+ ohm_rel52())/2
+        ctk_cyl_45(:,:) = (ctk_rel51()+ ctk_rel52())/2
+        dif_cyl_45(:,:) = (dif_rel51()+ dif_rel52())/2
         leg_rel2 = strcat(legend_com(n),cellstr(num2str(ir_SOH_av_cyl_45(1,2)', ', SOH = %f')))
     end
     if (n==3)
-        [ir_SOH1(:,:), irSOC1(:,:), ir_pt51_rel(:,:), ir_101_rel(:,:), ir_301_rel(:,:)] = ir_ch_cycle_CID_rel(Filepath(2*k-1,:));
+        [ir_SOH1(:,:), irSOC1(:,:), ohm_rel51(:,:), ctk_rel51(:,:), dif_rel51(:,:)] = ir_ch_cycle_CID_rel(Filepath(2*k-1,:));
         k=k+1
-        [ir_SOH2(:,:), irSOC2(:,:), ir_pt52_rel(:,:), ir_102_rel(:,:), ir_302_rel(:,:)] = ir_ch_cycle_CID_rel(Filepath(2*k-2,:));
+        [ir_SOH2(:,:), irSOC2(:,:), ohm_rel52(:,:), ctk_rel52(:,:), dif_rel52(:,:)] = ir_ch_cycle_CID_rel(Filepath(2*k-2,:));
         ir_SOH_av_prism_5(:,:) = (ir_SOH1()+ ir_SOH2())/2
         irSOC_av_prism_5(:,:) = (irSOC1()+ irSOC2())/2
-        ir_pt5_av_prism_5(:,:) = (ir_pt51_rel()+ ir_pt52_rel())/2
-        ir_10_av_prism_5(:,:) = (ir_101_rel()+ ir_102_rel())/2
-        ir_30_av_prism_5(:,:) = (ir_301_rel()+ ir_302_rel())/2
+        ohm_prism_5(:,:) = (ohm_rel51()+ ohm_rel52())/2
+        ctk_prism_5(:,:) = (ctk_rel51()+ ctk_rel52())/2
+        dif_prism_5(:,:) = (dif_rel51()+ dif_rel52())/2
         leg_rel3 = strcat(legend_com(n), cellstr(num2str(ir_SOH_av_prism_5(1,2)', ', SOH = %f')))
     end
     if (n==4)
       
-        [ir_SOH1(:,:), irSOC1(:,:), ir_pt51_rel(:,:), ir_101_rel(:,:), ir_301_rel(:,:)] = ir_ch_cycle_CEA_rel(Filepath(2*k-1,:));
+        [ir_SOH1(:,:), irSOC1(:,:), ohm_rel51(:,:), ctk_rel51(:,:), dif_rel51(:,:)] = ir_ch_cycle_CEA_rel(Filepath(2*k-1,:));
         k=k+1
-        [ir_SOH2(:,:), irSOC2(:,:), ir_pt52_rel(:,:), ir_102_rel(:,:), ir_302_rel(:,:)] = ir_ch_cycle_CEA_rel(Filepath(2*k-2,:));
+        [ir_SOH2(:,:), irSOC2(:,:), ohm_rel52(:,:), ctk_rel52(:,:), dif_rel52(:,:)] = ir_ch_cycle_CEA_rel(Filepath(2*k-2,:));
         ir_SOH_av_prism_45(:,:) = (ir_SOH1()+ ir_SOH2())/2
         irSOC_av_prism_45(:,:) = (irSOC1()+ irSOC2())/2
-        ir_pt5_av_prism_45(:,:) = (ir_pt51_rel()+ ir_pt52_rel())/2
-        ir_10_av_prism_45(:,:) = (ir_101_rel()+ ir_102_rel())/2
-        ir_30_av_prism_45(:,:) = (ir_301_rel()+ ir_302_rel())/2
+        ohm_prism_45(:,:) = (ohm_rel51()+ ohm_rel52())/2
+        ctk_prism_45(:,:) = (ctk_rel51()+ ctk_rel52())/2
+        dif_prism_45(:,:) = (dif_rel51()+ dif_rel52())/2
         leg_rel4 = strcat(legend_com(n), cellstr(num2str(ir_SOH_av_prism_45(1,2)', ', SOH = %f')))
     end
     if (n==5)
         
-        [ir_SOH1(:,:), irSOC1(:,:), ir_pt51_rel(:,:), ir_101_rel(:,:), ir_301_rel(:,:)] = ir_ch_cycle_Vito_rel(Filepath(2*k-1,:));
+        [ir_SOH1(:,:), irSOC1(:,:), ohm_rel51(:,:), ctk_rel51(:,:), dif_rel51(:,:)] = ir_ch_cycle_Vito_rel(Filepath(2*k-1,:));
         k=k+1
-        [ir_SOH2(:,:), irSOC2(:,:), ir_pt52_rel(:,:), ir_102_rel(:,:), ir_302_rel(:,:)] = ir_ch_cycle_Vito_rel(Filepath(2*k-2,:));
+        [ir_SOH2(:,:), irSOC2(:,:), ohm_rel52(:,:), ctk_rel52(:,:), dif_rel52(:,:)] = ir_ch_cycle_Vito_rel(Filepath(2*k-2,:));
         ir_SOH_av_pouch_5(:,:) = (ir_SOH1()+ ir_SOH2())/2
         irSOC_av_pouch_5(:,:) = (irSOC1()+ irSOC2())/2
-        ir_pt5_av_pouch_5(:,:) = (ir_pt51_rel()+ ir_pt52_rel())/2
-        ir_10_av_pouch_5(:,:) = (ir_101_rel()+ ir_102_rel())/2
-        ir_30_av_pouch_5(:,:) = (ir_301_rel()+ ir_302_rel())/2
+        ohm_pouch_5(:,:) = (ohm_rel51()+ ohm_rel52())/2
+        ctk_pouch_5(:,:) = (ctk_rel51()+ ctk_rel52())/2
+        dif_pouch_5(:,:) = (dif_rel51()+ dif_rel52())/2
         leg_rel5 = strcat(legend_com(n),cellstr(num2str(ir_SOH_av_pouch_5(1,2)', ', SOH = %f')))
 
     end
     if (n==6)
         
-        [ir_SOH1(:,:), irSOC1(:,:), ir_pt51_rel(:,:), ir_101_rel(:,:), ir_301_rel(:,:)] = ir_ch_cycle_Vito_rel(Filepath(2*k-1,:));
+        [ir_SOH1(:,:), irSOC1(:,:), ohm_rel51(:,:), ctk_rel51(:,:), dif_rel51(:,:)] = ir_ch_cycle_Vito_rel(Filepath(2*k-1,:));
         k=k+1
-        [ir_SOH2(:,:), irSOC2(:,:), ir_pt52_rel(:,:), ir_102_rel(:,:), ir_302_rel(:,:)] = ir_ch_cycle_Vito_rel(Filepath(2*k-2,:));
+        [ir_SOH2(:,:), irSOC2(:,:), ohm_rel51(:,:), ctk_rel51(:,:), dif_rel51(:,:)] = ir_ch_cycle_Vito_rel(Filepath(2*k-2,:));
         ir_SOH_av_pouch_45(:,:) = (ir_SOH1()+ ir_SOH2())/2
         irSOC_av_pouch_45(:,:) = (irSOC1()+ irSOC2())/2
-        ir_pt5_av_pouch_45(:,:) = (ir_pt51_rel()+ ir_pt52_rel())/2
-        ir_10_av_pouch_45(:,:) = (ir_101_rel()+ ir_102_rel())/2
-        ir_30_av_pouch_45(:,:) = (ir_301_rel()+ ir_302_rel())/2
+        ohm_pouch_45(:,:) = (ohm_rel51()+ ohm_rel52())/2
+        ctk_pouch_45(:,:) = (ctk_rel51()+ ctk_rel52())/2
+        dif_pouch_45(:,:) = (dif_rel51()+ dif_rel52())/2
         leg_rel6 = strcat(legend_com(n),cellstr(num2str(ir_SOH_av_pouch_45(1,2)', ', SOH = %f')))
 
     end
@@ -317,60 +317,72 @@ end
     legrel= vertcat(leg_rel1, leg_rel2, leg_rel3, leg_rel4, leg_rel5, leg_rel6)
     legrel_l = {'Cylindrical at 5°C'; 'Cylindrical at 45°C'; 'Prismatic at 5°C'; 'Prismatic at 45°C'; 'Pouch at 5°C'; 'Pouch at 45°C'}
     % for the 0.5s instant
+    fig = figure;
     figure()
     subplot(1,3,1)
-    plot(irSOC_av_cyl_5(:,2), ir_pt5_av_cyl_5, 'r-.+', 'LineWidth', 1.5)
+    plot(irSOC_av_cyl_5(:,2), ohm_cyl_5, 'r-.+', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_cyl_45(:,2), ir_pt5_av_cyl_45, 'r-o', 'LineWidth', 1.5)
+    plot(irSOC_av_cyl_45(:,2), ohm_cyl_45, 'r-o', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_prism_5(:,2), ir_pt5_av_prism_5, 'g-.+', 'LineWidth', 1.5)
+    plot(irSOC_av_prism_5(:,2), ohm_prism_5, 'g-.+', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_prism_45(:,2), ir_pt5_av_prism_45, 'g-o', 'LineWidth', 1.5)
+    plot(irSOC_av_prism_45(:,2), ohm_prism_45, 'g-o', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_pouch_5(:,2), ir_pt5_av_pouch_5, 'k-.+', 'LineWidth', 1.5)
+    plot(irSOC_av_pouch_5(:,2), ohm_pouch_5, 'k-.+', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_pouch_45(:,2), ir_pt5_av_pouch_45, 'k-o', 'LineWidth', 1.5)
+    plot(irSOC_av_pouch_45(:,2), ohm_pouch_45, 'k-o', 'LineWidth', 1.5)
     xlim([0 100])
-    xlabel('State of Charge (%)')
-    ylabel('Internal resistance ratio (w.r.t. at 100% SOH) for 30s charge pulse')
-    title('0.5th second')
+    ylim([0 3.5])
+    set(gca,'fontsize',18)
+    xlabel('State of Charge (%)', 'FontName', 'Arial', 'FontSize', 18)
+    ylabel('IRR for 30s charge pulse', 'FontName', 'Arial', 'FontSize', 18)
+    title('Ohmic resistance', 'FontName', 'Arial', 'FontSize', 18)
     hold off
 % for the 10s instant
+    %figure()
     subplot(1,3,2)
-    plot(irSOC_av_cyl_5(:,2), ir_10_av_cyl_5, 'r-.+', 'LineWidth', 1.5)
+    plot(irSOC_av_cyl_5(:,2), ctk_cyl_5, 'r-.+', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_cyl_45(:,2), ir_10_av_cyl_45, 'r-o', 'LineWidth', 1.5)
+    plot(irSOC_av_cyl_45(:,2), ctk_cyl_45, 'r-o', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_prism_5(:,2), ir_10_av_prism_5, 'g-.+', 'LineWidth', 1.5)
+    plot(irSOC_av_prism_5(:,2), ctk_prism_5, 'g-.+', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_prism_45(:,2), ir_10_av_prism_45, 'g-o', 'LineWidth', 1.5)
+    plot(irSOC_av_prism_45(:,2), ctk_prism_45, 'g-o', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_pouch_5(:,2), ir_10_av_pouch_5, 'k-.+', 'LineWidth', 1.5)
+    plot(irSOC_av_pouch_5(:,2), ctk_pouch_5, 'k-.+', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_pouch_45(:,2), ir_10_av_pouch_45, 'k-o', 'LineWidth', 1.5)
+    plot(irSOC_av_pouch_45(:,2), ctk_pouch_45, 'k-o', 'LineWidth', 1.5)
     xlim([0 100])
-    xlabel('State of Charge (%)')
-    legend(legrel_l, 'Location', 'North')
-    title('10th second')
+    ylim([0 3.5])
+    set(gca,'fontsize',18)
+    xlabel('State of Charge (%)', 'FontName', 'Arial', 'FontSize', 18)
+    legend(legrel_l, 'Location', 'North', 'FontName', 'Arial', 'FontSize', 18)
+    title('Charge transfer kinetic', 'FontName', 'Arial', 'FontSize', 18)
     hold off
     
     % for the 30s instant
+    %figure()
     subplot(1,3,3)
-    plot(irSOC_av_cyl_5(:,2), ir_30_av_cyl_5, 'r-.+', 'LineWidth', 1.5)
+    plot(irSOC_av_cyl_5(:,2), dif_cyl_5, 'r-.+', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_cyl_45(:,2), ir_30_av_cyl_45, 'r-o', 'LineWidth', 1.5)
+    plot(irSOC_av_cyl_45(:,2), dif_cyl_45, 'r-o', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_prism_5(:,2), ir_30_av_prism_5, 'g-.+', 'LineWidth', 1.5)
+    plot(irSOC_av_prism_5(:,2), dif_prism_5, 'g-.+', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_prism_45(:,2), ir_30_av_prism_45, 'g-o', 'LineWidth', 1.5)
+    plot(irSOC_av_prism_45(:,2), dif_prism_45, 'g-o', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_pouch_5(:,2), ir_30_av_pouch_5, 'k-.+', 'LineWidth', 1.5)
+    plot(irSOC_av_pouch_5(:,2), dif_pouch_5, 'k-.+', 'LineWidth', 1.5)
     hold on
-    plot(irSOC_av_pouch_45(:,2), ir_30_av_pouch_45, 'k-o', 'LineWidth', 1.5)
-    title("30th second")
+    plot(irSOC_av_pouch_45(:,2), dif_pouch_45, 'k-o', 'LineWidth', 1.5)
+    title("Diffusion", 'FontName', 'Arial', 'FontSize', 22)
     xlim([0 100])
-    xlabel('State of Charge (%)')
+    ylim([0 3.5])
+    set(gca,'fontsize',18)
+    xlabel('State of Charge (%)', 'FontName', 'Arial', 'FontSize', 18)
     hold off
+    %orient(fig,'landscape')
+    %print(fig,'LandscapePage.pdf','-dpdf')
+    %print(fig, '-dbitmap','G:\Pikoo\Study\MSPE\MasterThesis\MSPE_thesis\Matlab_files\Cycle_Tests\Gen0_common_files\Chap2\IRR_charge_res_sep1.bmp','PaperSize',[ 8.2677 11.6929 ])
 
 %% 2.2. Internal resistance incremental increase (DISCHARGING)
 % First part is the file parsing and averaging of values for the same
@@ -379,75 +391,75 @@ end
 for n=1:(j/2)
     k=n
     if(n==1)
-        [ird_SOH1(:,:), irdSOC1(:,:), ird_pt51_rel(:,:), ird_101_rel(:,:), ird_301_rel(:,:)] = ir_dis_cycle_CID_rel(Filepath(2*k-1,:));
+        [ird_SOH1(:,:), irdSOC1(:,:), ohmd_rel51(:,:), ctkd_rel51(:,:), difd_rel51(:,:)] = ir_dis_cycle_CID_rel(Filepath(2*k-1,:));
         k=k+1
-        [ird_SOH2(:,:), irdSOC2(:,:), ird_pt52_rel(:,1), ird_102_rel(:,1), ird_302_rel(:,1)] = ir_dis_cycle_CID_rel(Filepath(2*k-2,:));
+        [ird_SOH2(:,:), irdSOC2(:,:), ohmd_rel52(:,:), ctkd_rel52(:,:), difd_rel52(:,:)] = ir_dis_cycle_CID_rel(Filepath(2*k-2,:));
         ird_SOH_av_cyl_5(:,:) = (ird_SOH1()+ ird_SOH2())/2
         irdSOC_av_cyl_5(:,:) = (irdSOC1()+ irdSOC2())/2
-        ird_pt5_av_cyl_5(:,:) = (ird_pt51_rel()+ ird_pt52_rel())/2
-        ird_10_av_cyl_5(:,:) = (ird_101_rel()+ ird_102_rel())/2
-        ird_30_av_cyl_5(:,:) = (ird_301_rel()+ ird_302_rel())/2
+        ohmd_cyl_5(:,:) = (ohm_rel51()+ ohm_rel52())/2
+        ctkd_cyl_5(:,:) = (ctk_rel51()+ ctk_rel52())/2
+        difd_cyl_5(:,:) = (difd_rel51()+ difd_rel52())/2
         legd_rel1 = strcat(legend_com(n),cellstr(num2str(ird_SOH_av_cyl_5(1,2)', ', increment at SOH = %f')))
                 
     end
     if (n==2)
         
-        [ird_SOH1(:,:), irdSOC1(:,:), ird_pt51_rel(:,:), ird_101_rel(:,:), ird_301_rel(:,:)] = ir_dis_cycle_CEA_rel(Filepath(2*k-1,:));
+        [ird_SOH1(:,:), irdSOC1(:,:), ohmd_rel51(:,:), ctkd_rel51(:,:), difd_rel51(:,:)] = ir_dis_cycle_CEA_rel(Filepath(2*k-1,:));
         k=k+1
-        [ird_SOH2(:,:), irdSOC2(:,:), ird_pt52_rel(:,:), ird_102_rel(:,:), ird_302_rel(:,:)] = ir_dis_cycle_CEA_rel(Filepath(2*k-2,:));
+        [ird_SOH2(:,:), irdSOC2(:,:), ohmd_rel52(:,:), ctkd_rel52(:,:), difd_rel52(:,:)] = ir_dis_cycle_CEA_rel(Filepath(2*k-2,:));
         ird_SOH_av_cyl_45(:,:) = (ird_SOH1()+ ird_SOH2())/2
         irdSOC_av_cyl_45(:,:) = (irdSOC1()+ irdSOC2())/2
-        ird_pt5_av_cyl_45(:,:) = (ird_pt51_rel()+ ird_pt52_rel())/2
-        ird_10_av_cyl_45(:,:) = (ird_101_rel()+ ird_102_rel())/2
-        ird_30_av_cyl_45(:,:) = (ird_301_rel()+ ird_302_rel())/2
+        ohmd_cyl_45(:,:) = (ohmd_rel51()+ ohmd_rel52())/2
+        ctkd_cyl_45(:,:) = (ctkd_rel51()+ ctkd_rel52())/2
+        difd_cyl_45(:,:) = (difd_rel51()+ difd_rel52())/2
         legd_rel2 = strcat(legend_com(n),cellstr(num2str(ird_SOH_av_cyl_45(1,2)', ', increment at SOH = %f')))
     end
     if (n==3)
-        [ird_SOH1(:,:), irdSOC1(:,:), ird_pt51_rel(:,:), ird_101_rel(:,:), ird_301_rel(:,:)] = ir_dis_cycle_CID_rel(Filepath(2*k-1,:));
+        [ird_SOH1(:,:), irdSOC1(:,:), ohmd_rel51(:,:), ctkd_rel51(:,:), difd_rel51(:,:)] = ir_dis_cycle_CID_rel(Filepath(2*k-1,:));
         k=k+1
-        [ird_SOH2(:,:), irdSOC2(:,:), ird_pt52_rel(:,:), ird_102_rel(:,:), ird_302_rel(:,:)] = ir_dis_cycle_CID_rel(Filepath(2*k-2,:));
+        [ird_SOH2(:,:), irdSOC2(:,:), ohmd_rel52(:,:), ctkd_rel52(:,:), difd_rel52(:,:)] = ir_dis_cycle_CID_rel(Filepath(2*k-2,:));
         ird_SOH_av_prism_5(:,:) = (ird_SOH1()+ ird_SOH2())/2
         irdSOC_av_prism_5(:,:) = (irdSOC1()+ irdSOC2())/2
-        ird_pt5_av_prism_5(:,:) = (ird_pt51_rel()+ ird_pt52_rel())/2
-        ird_10_av_prism_5(:,:) = (ird_101_rel()+ ird_102_rel())/2
-        ird_30_av_prism_5(:,:) = (ird_301_rel()+ ird_302_rel())/2
+        ohmd_prism_5(:,:) = (ohmd_rel51()+ ohmd_rel52())/2
+        ctkd_prism_5(:,:) = (ctkd_rel51()+ ctkd_rel52())/2
+        difd_prism_5(:,:) = (difd_rel51()+ difd_rel52())/2
         legd_rel3 = strcat(legend_com(n), cellstr(num2str(ird_SOH_av_prism_5(1,2)', ', increment at SOH = %f')))
     end
     if (n==4)
       
-        [ird_SOH1(:,:), irdSOC1(:,:), ird_pt51_rel(:,:), ird_101_rel(:,:), ird_301_rel(:,:)] = ir_dis_cycle_CEA_rel(Filepath(2*k-1,:));
+        [ird_SOH1(:,:), irdSOC1(:,:), ohmd_rel51(:,:), ctkd_rel51(:,:), difd_rel51(:,:)] = ir_dis_cycle_CEA_rel(Filepath(2*k-1,:));
         k=k+1
-        [ird_SOH2(:,:), irdSOC2(:,:), ird_pt52_rel(:,:), ird_102_rel(:,:), ird_302_rel(:,:)] = ir_dis_cycle_CEA_rel(Filepath(2*k-2,:));
+        [ird_SOH2(:,:), irdSOC2(:,:), ohmd_rel52(:,:), ctkd_rel52(:,:), difd_rel52(:,:)] = ir_dis_cycle_CEA_rel(Filepath(2*k-2,:));
         ird_SOH_av_prism_45(:,:) = (ird_SOH1()+ ird_SOH2())/2
         irdSOC_av_prism_45(:,:) = (irdSOC1()+ irdSOC2())/2
-        ird_pt5_av_prism_45(:,:) = (ird_pt51_rel()+ ird_pt52_rel())/2
-        ird_10_av_prism_45(:,:) = (ird_101_rel()+ ird_102_rel())/2
-        ird_30_av_prism_45(:,:) = (ird_301_rel()+ ird_302_rel())/2
+        ohmd_prism_45(:,:) = (ohmd_rel51()+ ohmd_rel52())/2
+        ctkd_prism_45(:,:) = (ctkd_rel51()+ ctkd_rel52())/2
+        difd_prism_45(:,:) = (difd_rel51()+ difd_rel52())/2
         legd_rel4 = strcat(legend_com(n), cellstr(num2str(ird_SOH_av_prism_45(1,2)', ', increment at SOH = %f')))
     end
     if (n==5)
         
-        [ird_SOH1(:,:), irdSOC1(:,:), ird_pt51_rel(:,:), ird_101_rel(:,:), ird_301_rel(:,:)] = ir_dis_cycle_Vito_rel(Filepath(2*k-1,:));
+        [ird_SOH1(:,:), irdSOC1(:,:), ohmd_rel51(:,:), ctkd_rel51(:,:), difd_rel51(:,:)] = ir_dis_cycle_Vito_rel(Filepath(2*k-1,:));
         k=k+1
-        [ird_SOH2(:,:), irdSOC2(:,:), ird_pt52_rel(:,:), ird_102_rel(:,:), ird_302_rel(:,:)] = ir_dis_cycle_Vito_rel(Filepath(2*k-2,:));
+        [ird_SOH2(:,:), irdSOC2(:,:), ohmd_rel52(:,:), ctkd_rel52(:,:), difd_rel52(:,:)] = ir_dis_cycle_Vito_rel(Filepath(2*k-2,:));
         ird_SOH_av_pouch_5(:,:) = (ird_SOH1()+ ird_SOH2())/2
         irdSOC_av_pouch_5(:,:) = (irdSOC1()+ irdSOC2())/2
-        ird_pt5_av_pouch_5(:,:) = (ird_pt51_rel()+ ird_pt52_rel())/2
-        ird_10_av_pouch_5(:,:) = (ird_101_rel()+ ird_102_rel())/2
-        ird_30_av_pouch_5(:,:) = (ird_301_rel()+ ird_302_rel())/2
+        ohmd_pouch_5(:,:) = (ohmd_rel51()+ ohmd_rel52())/2
+        ctkd_pouch_5(:,:) = (ctkd_rel51()+ ctkd_rel52())/2
+        difd_pouch_5(:,:) = (difd_rel51()+ difd_rel52())/2
         legd_rel5 = strcat(legend_com(n),cellstr(num2str(ird_SOH_av_pouch_5(1,2)', ', increment at SOH = %f')))
 
     end
     if (n==6)
         
-        [ird_SOH1(:,:), irdSOC1(:,:), ird_pt51_rel(:,:), ird_101_rel(:,:), ird_301_rel(:,:)] = ir_dis_cycle_Vito_rel(Filepath(2*k-1,:));
+        [ird_SOH1(:,:), irdSOC1(:,:), ohmd_rel51(:,:), ctkd_rel51(:,:), difd_rel51(:,:)] = ir_dis_cycle_Vito_rel(Filepath(2*k-1,:));
         k=k+1
-        [ird_SOH2(:,:), irdSOC2(:,:), ird_pt52_rel(:,:), ird_102_rel(:,:), ird_302_rel(:,:)] = ir_dis_cycle_Vito_rel(Filepath(2*k-2,:));
+        [ird_SOH2(:,:), irdSOC2(:,:), ohmd_rel52(:,:), ctkd_rel52(:,:), difd_rel52(:,:)] = ir_dis_cycle_Vito_rel(Filepath(2*k-2,:));
         ird_SOH_av_pouch_45(:,:) = (ird_SOH1()+ ird_SOH2())/2
         irdSOC_av_pouch_45(:,:) = (irdSOC1()+ irdSOC2())/2
-        ird_pt5_av_pouch_45(:,:) = (ird_pt51_rel()+ ird_pt52_rel())/2
-        ird_10_av_pouch_45(:,:) = (ird_101_rel()+ ird_102_rel())/2
-        ird_30_av_pouch_45(:,:) = (ird_301_rel()+ ird_302_rel())/2
+        ohmd_pouch_45(:,:) = (ohmd_rel51()+ ohmd_rel52())/2
+        ctkd_pouch_45(:,:) = (ctkd_rel51()+ ctkd_rel52())/2
+        difd_pouch_45(:,:) = (difd_rel51()+ difd_rel52())/2
         legd_rel6 = strcat(legend_com(n),cellstr(num2str(ird_SOH_av_pouch_45(1,2)', ', increment at SOH = %f')))
 
     end
@@ -457,56 +469,61 @@ end
     % for the 0.5s instant
     figure()
     subplot(1,3,1)
-    plot(irdSOC_av_cyl_5(:,2), ird_pt5_av_cyl_5, 'r-.+', 'LineWidth', 1.5)
+    plot(irdSOC_av_cyl_5(:,2), ohmd_cyl_5, 'r-.+', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_cyl_45(:,2), ird_pt5_av_cyl_45, 'r-o', 'LineWidth', 1.5)
+    plot(irdSOC_av_cyl_45(:,2), ohmd_cyl_45, 'r-o', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_prism_5(:,2), ird_pt5_av_prism_5, 'g-.+', 'LineWidth', 1.5)
+    plot(irdSOC_av_prism_5(:,2), ohmd_prism_5, 'g-.+', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_prism_45(:,2), ird_pt5_av_prism_45, 'g-o', 'LineWidth', 1.5)
+    plot(irdSOC_av_prism_45(:,2), ohmd_prism_45, 'g-o', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_pouch_5(:,2), ird_pt5_av_pouch_5, 'k-.+', 'LineWidth', 1.5)
+    plot(irdSOC_av_pouch_5(:,2), ohmd_pouch_5, 'k-.+', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_pouch_45(:,2), ird_pt5_av_pouch_45, 'k-o', 'LineWidth', 1.5)
+    plot(irdSOC_av_pouch_45(:,2), ohmd_pouch_45, 'k-o', 'LineWidth', 1.5)
     xlim([0 100])
-    ylim([0 1.8])
-    xlabel('State of Charge (%)')
-    ylabel('Internal resistance ratio (w.r.t. at 100% SOH) for 30s discharge pulse')
-    title('0.5th second')
+    ylim([0 2])
+    set(gca,'fontsize',18)
+    xlabel('State of Charge (%)', 'FontName', 'Arial', 'FontSize', 18)
+    ylabel('IRR for 30s discharge pulse','FontName', 'Arial', 'FontSize', 18)
+    title('Ohmic')
 
 % for the 10s instant
+    %figure()
     subplot(1,3,2)
-    plot(irdSOC_av_cyl_5(:,2), ird_10_av_cyl_5, 'r-.+', 'LineWidth', 1.5)
+    plot(irdSOC_av_cyl_5(:,2), ctkd_cyl_5, 'r-.+', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_cyl_45(:,2), ird_10_av_cyl_45, 'r-o', 'LineWidth', 1.5)
+    plot(irdSOC_av_cyl_45(:,2), ctkd_cyl_45, 'r-o', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_prism_5(:,2), ird_10_av_prism_5, 'g-.+', 'LineWidth', 1.5)
+    plot(irdSOC_av_prism_5(:,2), ctkd_prism_5, 'g-.+', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_prism_45(:,2), ird_10_av_prism_45, 'g-o', 'LineWidth', 1.5)
+    plot(irdSOC_av_prism_45(:,2), ctkd_prism_45, 'g-o', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_pouch_5(:,2), ird_10_av_pouch_5, 'k-.+', 'LineWidth', 1.5)
+    plot(irdSOC_av_pouch_5(:,2), ctkd_pouch_5, 'k-.+', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_pouch_45(:,2), ird_10_av_pouch_45, 'k-o', 'LineWidth', 1.5)
+    plot(irdSOC_av_pouch_45(:,2), ctkd_pouch_45, 'k-o', 'LineWidth', 1.5)
     xlim([0 100])
-    ylim([0 1.8])
-    legend(legrel_l, 'Location', 'North')
-    xlabel('State of Charge (%)')
-    title('10th second')
+    ylim([0 2])
+    set(gca,'fontsize',18)
+    legend(legrel_l, 'Location', 'North','FontName', 'Arial', 'FontSize', 18)
+    xlabel('State of Charge (%)','FontName', 'Arial', 'FontSize', 18)
+    title('Charge transfer kinetic','FontName', 'Arial', 'FontSize', 18)
 
     % for the 30s instant
+    %figure()
     subplot(1,3,3)
-    plot(irdSOC_av_cyl_5(:,2), ird_30_av_cyl_5, 'r-.+', 'LineWidth', 1.5)
+    plot(irdSOC_av_cyl_5(:,2), difd_cyl_5, 'r-.+', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_cyl_45(:,2), ird_30_av_cyl_45, 'r-o', 'LineWidth', 1.5)
+    plot(irdSOC_av_cyl_45(:,2), difd_cyl_45, 'r-o', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_prism_5(:,2), ird_30_av_prism_5, 'g-.+', 'LineWidth', 1.5)
+    plot(irdSOC_av_prism_5(:,2), difd_prism_5, 'g-.+', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_prism_45(:,2), ird_30_av_prism_45, 'g-o', 'LineWidth', 1.5)
+    plot(irdSOC_av_prism_45(:,2), difd_prism_45, 'g-o', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_pouch_5(:,2), ird_30_av_pouch_5, 'k-.+', 'LineWidth', 1.5)
+    plot(irdSOC_av_pouch_5(:,2), difd_pouch_5, 'k-.+', 'LineWidth', 1.5)
     hold on
-    plot(irdSOC_av_pouch_45(:,2), ird_30_av_pouch_45, 'k-o', 'LineWidth', 1.5)
+    plot(irdSOC_av_pouch_45(:,2), difd_pouch_45, 'k-o', 'LineWidth', 1.5)
     xlim([0 100])
-    ylim([0 1.8])
-    xlabel('State of Charge (%)')
-    title('30th second')
+    ylim([0 2])
+    set(gca,'fontsize',18)
+    xlabel('State of Charge (%)','FontName', 'Arial', 'FontSize', 18)
+    title('Diffusion','FontName', 'Arial', 'FontSize', 18)
