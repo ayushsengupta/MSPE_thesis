@@ -1,3 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% To reuse the Matlab files, the filepath of the datafiles need to    %%
+%% be changed according to the path of the data files                  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
 %% Curves for the Performance at 100% analysis
 
 % Here all the cylindrical, prismatic and pouch cells are taken together.
